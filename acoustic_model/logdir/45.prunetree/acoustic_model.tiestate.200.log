@@ -1,0 +1,126 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-imoddeffn		/home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.alltriphones.mdef
+-omoddeffn		/home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.200.mdef
+-psetfn			/home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.tree_questions
+-treedir		/home/nattapong/Downloads/acoustic_model/trees/acoustic_model.200
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 1309 total models defined (36 base, 1273 tri)
+INFO: model_def_io.c(575): 5236 total states
+INFO: model_def_io.c(576): 3927 total tied states
+INFO: model_def_io.c(577): 108 total tied CI states
+INFO: model_def_io.c(578): 36 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(93): Reading: /home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.tree_questions
+INFO: main.c(123): A-0: offset 108
+INFO: main.c(123): A-1: offset 116
+INFO: main.c(123): A-2: offset 123
+INFO: main.c(123): AA-0: offset 128
+INFO: main.c(123): AA-1: offset 135
+INFO: main.c(123): AA-2: offset 140
+INFO: main.c(123): AH-0: offset 144
+INFO: main.c(123): AH-1: offset 145
+INFO: main.c(123): AH-2: offset 146
+INFO: main.c(123): AO-0: offset 147
+INFO: main.c(123): AO-1: offset 148
+INFO: main.c(123): AO-2: offset 150
+INFO: main.c(123): B-0: offset 151
+INFO: main.c(123): B-1: offset 152
+INFO: main.c(123): B-2: offset 153
+INFO: main.c(123): C-0: offset 154
+INFO: main.c(123): C-1: offset 155
+INFO: main.c(123): C-2: offset 156
+INFO: main.c(123): CH-0: offset 157
+INFO: main.c(123): CH-1: offset 159
+INFO: main.c(123): CH-2: offset 160
+INFO: main.c(123): D-0: offset 162
+INFO: main.c(123): D-1: offset 164
+INFO: main.c(123): D-2: offset 166
+INFO: main.c(123): EH-0: offset 168
+INFO: main.c(123): EH-1: offset 169
+INFO: main.c(123): EH-2: offset 171
+INFO: main.c(123): EN-0: offset 172
+INFO: main.c(123): EN-1: offset 173
+INFO: main.c(123): EN-2: offset 174
+INFO: main.c(123): ER-0: offset 175
+INFO: main.c(123): ER-1: offset 176
+INFO: main.c(123): ER-2: offset 177
+INFO: main.c(123): H-0: offset 178
+INFO: main.c(123): H-1: offset 179
+INFO: main.c(123): H-2: offset 180
+INFO: main.c(123): HH-0: offset 181
+INFO: main.c(123): HH-1: offset 182
+INFO: main.c(123): HH-2: offset 183
+INFO: main.c(123): IH-0: offset 184
+INFO: main.c(123): IH-1: offset 186
+INFO: main.c(123): IH-2: offset 188
+INFO: main.c(123): IY-0: offset 189
+INFO: main.c(123): IY-1: offset 191
+INFO: main.c(123): IY-2: offset 193
+INFO: main.c(123): K-0: offset 194
+INFO: main.c(123): K-1: offset 199
+INFO: main.c(123): K-2: offset 201
+INFO: main.c(123): L-0: offset 204
+INFO: main.c(123): L-1: offset 205
+INFO: main.c(123): L-2: offset 206
+INFO: main.c(123): M-0: offset 207
+INFO: main.c(123): M-1: offset 210
+INFO: main.c(123): M-2: offset 213
+INFO: main.c(123): N-0: offset 217
+INFO: main.c(123): N-1: offset 221
+INFO: main.c(123): N-2: offset 225
+INFO: main.c(123): O-0: offset 230
+INFO: main.c(123): O-1: offset 231
+INFO: main.c(123): O-2: offset 232
+INFO: main.c(123): OA-0: offset 233
+INFO: main.c(123): OA-1: offset 234
+INFO: main.c(123): OA-2: offset 235
+INFO: main.c(123): OW-0: offset 236
+INFO: main.c(123): OW-1: offset 239
+INFO: main.c(123): OW-2: offset 243
+INFO: main.c(123): P-0: offset 248
+INFO: main.c(123): P-1: offset 249
+INFO: main.c(123): P-2: offset 250
+INFO: main.c(123): PH-0: offset 251
+INFO: main.c(123): PH-1: offset 253
+INFO: main.c(123): PH-2: offset 254
+INFO: main.c(123): R-0: offset 256
+INFO: main.c(123): R-1: offset 257
+INFO: main.c(123): R-2: offset 258
+INFO: main.c(123): S-0: offset 260
+INFO: main.c(123): S-1: offset 262
+INFO: main.c(123): S-2: offset 263
+INFO: main.c(123): T-0: offset 265
+INFO: main.c(123): T-1: offset 268
+INFO: main.c(123): T-2: offset 270
+INFO: main.c(123): TA-0: offset 273
+INFO: main.c(123): TA-1: offset 274
+INFO: main.c(123): TA-2: offset 275
+INFO: main.c(123): TH-0: offset 276
+INFO: main.c(123): TH-1: offset 278
+INFO: main.c(123): TH-2: offset 279
+INFO: main.c(123): U-0: offset 281
+INFO: main.c(123): U-1: offset 283
+INFO: main.c(123): U-2: offset 284
+INFO: main.c(123): UH-0: offset 285
+INFO: main.c(123): UH-1: offset 286
+INFO: main.c(123): UH-2: offset 287
+INFO: main.c(123): UW-0: offset 288
+INFO: main.c(123): UW-1: offset 290
+INFO: main.c(123): UW-2: offset 292
+INFO: main.c(123): W-0: offset 294
+INFO: main.c(123): W-1: offset 296
+INFO: main.c(123): W-2: offset 299
+INFO: main.c(123): WH-0: offset 302
+INFO: main.c(123): WH-1: offset 303
+INFO: main.c(123): WH-2: offset 304
+INFO: main.c(123): Y-0: offset 305
+INFO: main.c(123): Y-1: offset 306
+INFO: main.c(123): Y-2: offset 307
+INFO: main.c(145): n_seno= 308
+Tue Jun  9 01:50:05 2020

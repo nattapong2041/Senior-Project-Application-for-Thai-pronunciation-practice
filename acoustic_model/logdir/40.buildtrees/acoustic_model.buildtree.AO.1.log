@@ -1,0 +1,133 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-cntthresh	0.00001	1.000000e-05
+-csplitmax	100	2000
+-csplitmin	1	1
+-csplitthr	8e-4	0.000000e+00
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-meanfn			/home/nattapong/Downloads/acoustic_model/model_parameters/acoustic_model.cd_cont_untied/means
+-mixwfn			/home/nattapong/Downloads/acoustic_model/model_parameters/acoustic_model.cd_cont_untied/mixture_weights
+-moddeffn		/home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.untied.mdef
+-mwfloor	1e-4	1.000000e-08
+-phone			AO
+-psetfn			/home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.tree_questions
+-ssplitmax	5	7
+-ssplitmin	1	1
+-ssplitthr	8e-4	0.000000e+00
+-state			1
+-stwt			1.0,0.05,0.0,
+-treefn			/home/nattapong/Downloads/acoustic_model/trees/acoustic_model.unpruned/AO-1.dtree
+-ts2cbfn	.semi.	.cont.
+-varfloor	0.00001	1.000000e-05
+-varfn			/home/nattapong/Downloads/acoustic_model/model_parameters/acoustic_model.cd_cont_untied/variances
+
+INFO: main.c(223): Reading: /home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.untied.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 416 total models defined (36 base, 380 tri)
+INFO: model_def_io.c(575): 1664 total states
+INFO: model_def_io.c(576): 1248 total tied states
+INFO: model_def_io.c(577): 108 total tied CI states
+INFO: model_def_io.c(578): 36 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(242): Building trees for [AO B R i] through [AO S SIL e]
+INFO: main.c(268): Covering states |[393 413]| == 21
+INFO: main.c(275): Reading: /home/nattapong/Downloads/acoustic_model/model_parameters/acoustic_model.cd_cont_untied/mixture_weights
+INFO: s3mixw_io.c(172): Read /home/nattapong/Downloads/acoustic_model/model_parameters/acoustic_model.cd_cont_untied/mixture_weights [21x1x1 array]
+INFO: main.c(311): 7 of 7 models have observation count greater than 0.000010
+INFO: main.c(95): nrm stwt: 0.045 0.909 0.045 
+INFO: s3gau_io.c(168): Read /home/nattapong/Downloads/acoustic_model/model_parameters/acoustic_model.cd_cont_untied/means [1248x1x1 array]
+INFO: s3gau_io.c(168): Read /home/nattapong/Downloads/acoustic_model/model_parameters/acoustic_model.cd_cont_untied/variances [1248x1x1 array]
+INFO: main.c(549): Reading: /home/nattapong/Downloads/acoustic_model/model_architecture/acoustic_model.tree_questions
+INFO: main.c(587): 178 total simple questions (170 phone; 8 word bndry)
+INFO: main.c(589): 42 Left Only questions, and 40 Right Only questions
+INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION1 1 -7.467e+05 4.482e+03 4.703e+03
+|    ( QUESTION2_18_L -1 -4.260e+05 1.428e+03 2.769e+03
+|        ( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+|            ( - -1.225e+05 1 0)
+|            ( - -8.729e+04 1 0))
+|        ( QUESTION2 -1 -2.143e+05 1.335e+03 1.393e+03
+|            ( - -9.006e+04 1 0)
+|            ( QUESTION0_0_R 1 -1.229e+05 5.515e+02 7.999e+02
+|                ( - -6.189e+04 1 0)
+|                ( - -6.043e+04 1 0))))
+|    ( WDBNDRY_E 0 -3.162e+05 1.411e+03 1.934e+03
+|        ( - -2.531e+05 1 0)
+|        ( - -6.167e+04 1 0)))
+s>    ( QUESTION1 1 -7.467e+05 4.482e+03 4.703e+03
+s>        ( QUESTION2_18_L -1 -4.260e+05 1.428e+03 2.769e+03
+s>            ( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+s>                ( - -1.225e+05 1 0)
+s>                ( - -8.729e+04 1 0))
+s>            ( QUESTION2 -1 -2.143e+05 1.335e+03 1.393e+03
+s>                ( - -9.006e+04 1 0)
+s>                ( QUESTION0_0_R 1 -1.229e+05 5.515e+02 7.999e+02
+s>                    ( - -6.189e+04 1 0)
+s>                    ( - -6.043e+04 1 0))))
+s>        ( WDBNDRY_E 0 -3.162e+05 1.411e+03 1.934e+03
+s>            ( - -2.531e+05 1 0)
+s>            ( - -6.167e+04 1 0)))INFO: dtree.c(1315): Comp split 0
+INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION2_18_L -1 -4.260e+05 1.428e+03 2.769e+03
+|    ( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+|        ( - -1.225e+05 1 0)
+|        ( - -8.729e+04 1 0))
+|    ( QUESTION2 -1 -2.143e+05 1.335e+03 1.393e+03
+|        ( - -9.006e+04 1 0)
+|        ( QUESTION0_0_R 1 -1.229e+05 5.515e+02 7.999e+02
+|            ( - -6.189e+04 1 0)
+|            ( - -6.043e+04 1 0))))
+s>    ( QUESTION2_18_L -1 -4.260e+05 1.428e+03 2.769e+03
+s>        ( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+s>            ( - -1.225e+05 1 0)
+s>            ( - -8.729e+04 1 0))
+s>        ( QUESTION2 -1 -2.143e+05 1.335e+03 1.393e+03
+s>            ( - -9.006e+04 1 0)
+s>            ( QUESTION0_0_R 1 -1.229e+05 5.515e+02 7.999e+02
+s>                ( - -6.189e+04 1 0)
+s>                ( - -6.043e+04 1 0))))INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( WDBNDRY_E 0 -3.162e+05 1.411e+03 1.934e+03
+|    ( - -2.531e+05 1 0)
+|    ( - -6.167e+04 1 0))
+s>    ( WDBNDRY_E 0 -3.162e+05 1.411e+03 1.934e+03
+s>        ( - -2.531e+05 1 0)
+s>        ( - -6.167e+04 1 0))INFO: dtree.c(1315): Comp split 1
+INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION0_0_R 1 -1.229e+05 5.515e+02 7.999e+02
+|    ( - -6.189e+04 1 0)
+|    ( - -6.043e+04 1 0))
+s>    ( QUESTION0_0_R 1 -1.229e+05 5.515e+02 7.999e+02
+s>        ( - -6.189e+04 1 0)
+s>        ( - -6.043e+04 1 0))INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION2 -1 -3.013e+05 8.896e+02 1.969e+03
+|    ( - -9.006e+04 1 0)
+|    ( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+|        ( - -1.225e+05 1 0)
+|        ( - -8.729e+04 1 0)))
+s>    ( QUESTION2 -1 -3.013e+05 8.896e+02 1.969e+03
+s>        ( - -9.006e+04 1 0)
+s>        ( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+s>            ( - -1.225e+05 1 0)
+s>            ( - -8.729e+04 1 0)))INFO: dtree.c(1315): Comp split 2
+INFO: dtree.c(1315): Comp split 3
+INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+|    ( - -1.225e+05 1 0)
+|    ( - -8.729e+04 1 0))
+s>    ( QUESTION2 1 -2.104e+05 5.555e+02 1.376e+03
+s>        ( - -1.225e+05 1 0)
+s>        ( - -8.729e+04 1 0))INFO: dtree.c(1315): Comp split 4
+INFO: dtree.c(1315): Comp split 5
+INFO: dtree.c(1315): Comp split 6
+INFO: dtree.c(1318): stop. leaf nodes are specific
+Tue Jun  9 01:49:59 2020

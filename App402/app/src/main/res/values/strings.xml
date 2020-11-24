@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">อ่านถูกไหม?</string>
+    <string name="kamyaks_caption">ลองพูดคำยากๆ เช่น กรมธรรม์".</string>
+
+    <!--    String for change_level-->
+    <string name="change_level">ปรับระดับแบบฝึกหัด</string>
+    <string name="level_at">ระดับที่</string>
+    <string name="level_1">ระดับที่ 1</string>
+    <string name="level_2">ระดับที่ 2</string>
+    <string name="level_3">ระดับที่ 3</string>
+    <string name="home">หน้าแรก</string>
+
+    <!--    String for history2-->
+    <string name="history">ประวัติ</string>
+    <string name="level">ระดับ</string>
+    <string name="lastest_score">คะแนนล่าสุด</string>
+    <string name="level_1score">ยังไม่มีประวัติ</string>
+    <string name="level_2score">ยังไม่มีประวัติ</string>
+    <string name="level_3score">ยังไม่มีประวัติ</string>
+
+    <!--    String for main_app-->
+    <string name="name">แบบฝึกหัดออกเสียงภาษาไทย</string>
+    <string name="start_test">เริ่มทดสอบ</string>
+    <string name="change_level1">ปรับระดับ</string>
+    <string name="exit">ออก</string>
+
+    <!--    String for show_all-->
+    <string name="test_level_at">แบบฝึกหัดชุดที่</string>
+    <string name="max_point">คะแนนรวม</string>
+    <string name="my_point">คะแนนที่ได้</string>
+    <string name="retry">เริ่มใหม่</string>
+    <string name="next_level">ระดับถัดไป</string>
+    <!--    String for show_point-->
+    <string name="word_at">คำที่</string>
+    <string name="give_word">คำที่ให้อ่าน</string>
+    <string name="right_word">คำอ่านที่ถูก</string>
+    <string name="read_word">คำที่เราอ่าน</string>
+    <string name="score">คะแนนที่ได้</string>
+    <string name="next_word">คำต่อไป</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--    String for show_word-->
+
+    <!--    Update-->
+    <string name="right_word_static">คำอ่านที่ถูก</string>
+    <string name="read_word_static">คำที่อ่าน</string>
+</resources>

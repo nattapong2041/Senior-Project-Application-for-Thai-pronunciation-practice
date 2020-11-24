@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="level_1">
+        <item>กรกฎาคม</item>
+        <item>พระบรมธาตุ</item>
+        <item>พิจารณา</item>
+        <item>ขัดสมาธิ</item>
+        <item>วิตถาร</item>
+        <item>คุณโทษ</item>
+        <item>จรเข้</item>
+        <item>ทิฐิ</item>
+        <item>ชนมพรรษา</item>
+        <item>สัตบุรุษ</item>
+    </array>
+
+    <array name="level_2">
+        <item>พยาธิวิทยา</item>
+        <item>กรมธรรม์</item>
+        <item>ปฐมวัย</item>
+        <item>อัสนีบาต</item>
+        <item>ซอมซ่อ</item>
+        <item>ปราชัย</item>
+        <item>โฆษณา</item>
+        <item>ว่าวปักเป้า</item>
+        <item>ปลาปักเป้า</item>
+        <item>อหิวาตกโรค</item>
+    </array>
+
+    <array name="level_3">
+        <item>สวรรคต</item>
+        <item>กามราคะ</item>
+        <item>กามตัณหา</item>
+        <item>คุณลักษณะ</item>
+        <item>ตุ๊กตา</item>
+        <item>แถลง</item>
+        <item>อุณหภูมิ</item>
+        <item>เฉลิมพระชนมพรรษา</item>
+        <item>เพลา</item>
+        <item>เพรา</item>
+    </array>
+</resources>

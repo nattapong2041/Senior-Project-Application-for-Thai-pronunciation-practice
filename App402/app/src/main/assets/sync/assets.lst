@@ -1,0 +1,9 @@
+acoustic_model.cd_cont_200new2/feat.params
+acoustic_model.cd_cont_200new2/mdef
+acoustic_model.cd_cont_200new2/means
+acoustic_model.cd_cont_200new2/mixture_weights
+acoustic_model.cd_cont_200new2/noisedict
+acoustic_model.cd_cont_200new2/transition_matrices
+acoustic_model.cd_cont_200new2/variances
+acoustic_model.dict
+acoustic_model.gram

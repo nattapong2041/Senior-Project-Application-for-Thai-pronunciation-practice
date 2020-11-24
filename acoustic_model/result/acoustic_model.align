@@ -1,0 +1,4 @@
+Use of uninitialized value $total_words in numeric eq (==) at /usr/local/lib/sphinxtrain/scripts/decode/word_align.pl line 179.
+Use of uninitialized value $total_hyp in division (/) at /usr/local/lib/sphinxtrain/scripts/decode/word_align.pl line 180.
+Use of uninitialized value $total_match in division (/) at /usr/local/lib/sphinxtrain/scripts/decode/word_align.pl line 180.
+Illegal division by zero at /usr/local/lib/sphinxtrain/scripts/decode/word_align.pl line 180.
