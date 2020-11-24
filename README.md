@@ -3,4 +3,5 @@ The Application can identify wrong pronouns word then give scores to user and re
 
 
 Acoutic Model : Trained voice model
+
 App402 : The android app 
